@@ -284,6 +284,9 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+.globoftext{
+}
+
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
@@ -347,6 +350,8 @@ h1, h2, h3, h4, h5,
     .hover-bg-enlarge .bg-image-md-height {
       height: 300px !important; } }
 
+
+}
 .bg-image {
   background-size: cover;
   background-position: center center;
@@ -1827,9 +1832,8 @@ h1, h2, h3, h4, h5,
 .typewriter {
     font-family: Open Sans, sans-serif;
 	display: inline-block;
-    font-weight: 400;
+    font-weight: 200;
     position: absolute;
-padding-left: 37%;
     
 
     
@@ -1841,7 +1845,7 @@ padding-left: 37%;
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;
