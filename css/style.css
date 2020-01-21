@@ -283,8 +283,13 @@ h1, h2, h3, h4, h5,
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
+.site-wrap-xiao{
+        overflow: visible;   /*change to 'visible'*/
 
+}
 .globoftext{
+    overflow-x: visible;
+padding-top: 90%;
 }
 
 .site-section {
@@ -372,7 +377,8 @@ h1, h2, h3, h4, h5,
   .bg-image > .container {
     position: relative;
     z-index: 1; }
-
+.f{
+}
 @media (max-width: 991.98px) {
   .img-md-fluid {
     max-width: 100%; } }
