@@ -1,5 +1,5 @@
-@media screen and (min-width: 660px) {
 
+@media screen and (min-width: 660px) {
 /* Base */
 html {
   overflow-x: hidden; }
@@ -214,8 +214,10 @@ body {
   color: #EAE6DF !important;
     background-color: #EAE6DF;
   font-weight: 300;
-  font-size: 1rem; }
-
+  font-size: 1rem;
+background-size: cover;
+    }
+    
 ::-moz-selection {
   background: none;
   color: none; }
@@ -235,7 +237,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-weight: 300;
-  color: #000;
+  color: black;
     line-height: 1.5;
     }
 
@@ -264,9 +266,9 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-outline-white {
-    border-color: #fff;
+    border-color: #000;
     background: transparent;
-    color: #fff; }
+    color: #000; }
     .btn.btn-outline-white:hover {
       background: #fff;
       border-color: #fff;
@@ -384,6 +386,8 @@ padding-top: 90%;
 .f{
 margin-top: -45%;
     position:absolute;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 @media (max-width: 991.98px) {
     
@@ -1847,10 +1851,7 @@ margin-top: -45%;
     font-family: Open Sans, sans-serif;
 	display: inline-block;
     font-weight: 200;
-    position: absolute;
-    
-
-    
+    position: absolute;  
 }
 
 .typewriter-text {
@@ -1888,4 +1889,10 @@ margin-top: -45%;
 mb-4 text-black{
 line-height: 1.5; 
 
-}
+} 
+body{
+    background-color: #EAE6DF;
+    overflow:auto;
+    background-size: 100% 100%;
+
+    }
